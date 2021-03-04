@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/leaflet-geoman-with-react/static/css/main.d725c3ff.chunk.css",
+    "main.js": "/leaflet-geoman-with-react/static/js/main.c762bba2.chunk.js",
+    "main.js.map": "/leaflet-geoman-with-react/static/js/main.c762bba2.chunk.js.map",
+    "runtime-main.js": "/leaflet-geoman-with-react/static/js/runtime-main.f7d427f6.js",
+    "runtime-main.js.map": "/leaflet-geoman-with-react/static/js/runtime-main.f7d427f6.js.map",
+    "static/css/2.3783a8be.chunk.css": "/leaflet-geoman-with-react/static/css/2.3783a8be.chunk.css",
+    "static/js/2.0a9dc2d0.chunk.js": "/leaflet-geoman-with-react/static/js/2.0a9dc2d0.chunk.js",
+    "static/js/2.0a9dc2d0.chunk.js.map": "/leaflet-geoman-with-react/static/js/2.0a9dc2d0.chunk.js.map",
+    "index.html": "/leaflet-geoman-with-react/index.html",
+    "static/css/2.3783a8be.chunk.css.map": "/leaflet-geoman-with-react/static/css/2.3783a8be.chunk.css.map",
+    "static/css/main.d725c3ff.chunk.css.map": "/leaflet-geoman-with-react/static/css/main.d725c3ff.chunk.css.map",
+    "static/js/2.0a9dc2d0.chunk.js.LICENSE.txt": "/leaflet-geoman-with-react/static/js/2.0a9dc2d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7d427f6.js",
+    "static/css/2.3783a8be.chunk.css",
+    "static/js/2.0a9dc2d0.chunk.js",
+    "static/css/main.d725c3ff.chunk.css",
+    "static/js/main.c762bba2.chunk.js"
+  ]
+}
