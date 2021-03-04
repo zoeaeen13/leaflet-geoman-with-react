@@ -11,6 +11,7 @@ class Map extends React.Component {
     map: null,
     latlngs: null,
     errorMessage: '請圈選區域',
+    copySuccess: '',
   }
 
   initMap = (startPoint = [25.0475613, 121.5173399]) => {
@@ -62,6 +63,12 @@ class Map extends React.Component {
     }
   }
 
+  handleCopyPoint = () => {
+    if (!this.state.latlngs) return
+    navigator.clipboard.writeText(JSON.stringify(this.state.latlngs));
+    this.setState({copySuccess: 'Copy!'})
+  }
+
   componentDidMount() {
     const map = this.state.latlngs? this.initMap(this.state.latlngs[0]):this.initMap();
     this.state.latlngs && this.addPolygonToMap(map, this.state.latlngs);
@@ -76,7 +83,7 @@ class Map extends React.Component {
           <GeoWrapper>
             <GetButton onClick={this.handleGeoJSON}>獲取座標</GetButton>
             <textarea value={outputValue} readOnly/>
-            <ConfirmButton>確認區域</ConfirmButton>
+            <ConfirmButton onClick={this.handleCopyPoint}>{this.state.copySuccess.length? this.state.copySuccess: '複製座標'}</ConfirmButton>
           </GeoWrapper>
       </Container>
     );
